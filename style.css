@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.account{
+    display: flex;
+    margin-right: 36px;
+}
+
+.acc-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account-info{
+    margin-left: 10px;
+}
+.account-img{
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+}
+.expand_more{
+    transition:0.3s;
+    background-color: white;
+    color:#1C1B1F ;
+    height: 24px;
+    width: 24px;
+    border: none;
+    margin-left: 2px;
+}
+
+/*  to rotate */
+
+.expand_more-2{
+    rotate: 180deg;
+    background-color: white;
+    color:#1C1B1F ;
+    height: 24px;
+    width: 24px;
+    border: none;
+    margin-left: 2px;
+}
+
+
+
+
+.account-name{
+color: #070707;
+font-size: 16px;
+font-family: Inter;
+font-weight: 600;
+word-wrap: break-word;
+height: 25px;
+width: 78px;
+}
+.gmail{
+color: #7D7D7D;
+font-size: 12px;
+font-family: Inter;
+font-weight: 600;
+word-wrap: break-word;
+}
+
+
+
+
+
+/* dropdown css */
+
+
+
+.close-drop{
+    display: none;
+    height: 239px;
+    width:219px ;
+    /* border: 2px solid red; */
+}
+
+.open-drop{
+    display: block;
+    height: 239px;
+    width:219px ;
+    /* border: 2px solid red; */
+}
+
+.account-sec{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+
+.account-sec>a{
+    text-decoration: none;
+    color: #000000;
+    font-family: inter;
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
